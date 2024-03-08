@@ -26,7 +26,7 @@ On the left-hand sidebar, you should see **Database Access**. Click on it and ma
 On the left-hand sidebar, you should see **Network Access**.  
 Make a new access point for your IP address to get permission on using your mongodb.
 
-Now create a `.env` file in your root directory of `mern-weather-app` and dynamically add this to your `.env`
+Now create a `.env` file in your root directory of `weather-main` and dynamically add this to your `.env`
 ```javascript
 DB=mongodb+srv://<username>:<password>@<cluster-id>.mongodb.net/test?retryWrites=true&w=majority
 ```
@@ -34,9 +34,9 @@ To get the cluster ID, go to **Clusters** and click on **Connect > Connect your 
 
 #### Weather API
 Make an account at   and go to the [api keys](https://home.openweathermap.org/api_keys) section.
-Copy/pasta that key to the .env file using `WEATHER_KEY` as your key
+Copy/pasta that key to the .env file using `OPENWEATHERMAP_API_KEY` as your key
 ```
-WEATHER_KEY=1234567890asdfjkl
+OPENWEATHERMAP_API_KEY=1234567890asdfjkl
 ```
 You can now run your local.  
 
