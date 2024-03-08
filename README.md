@@ -1,11 +1,10 @@
 ## Setup
 Prereq apps to have downloaded
-- [Node](https://nodejs.org/en/) 
 - [git](https://git-scm.com/downloads)
 
 Clone the repo:
 ```
-git clone https://github.com/JinKim7/mern-weather-app.git
+git clone https://github.com/SidPeddi/Weather.git
 ```
 
 Download all npm packages for both client/server
@@ -42,8 +41,12 @@ WEATHER_KEY=1234567890asdfjkl
 You can now run your local.  
 
 ## Run Locally
+First you must install next by
+```bash
+npm install next
+```
 
-First, run the development server:
+Now you can run the development server:
 ```bash
 npm run dev
 # or
